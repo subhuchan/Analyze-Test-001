@@ -3,12 +3,12 @@ import pandas as pd
 # Load data
 df = pd.read_csv('data.csv')
 
-# Calculate total revenue (typo here!)
-total_revenue = df['revenue'].sum()
+# Calculate total revenew (typo here!)
+total_revenew = df['revenue'].sum()
 
 # Output result
 result = {
-    'total_revenue': total_revenue,
+    'total_revenue': total_revenew,
     'count': len(df)
 }
 
